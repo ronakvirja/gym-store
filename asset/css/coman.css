@@ -1,0 +1,119 @@
+:root {
+  --primary: #cfb023;
+  --grey: #292828;
+  --black: #000000;
+  --white: #ffffff;
+  --border-color: #ffc500;
+  --heading-color: #ff7101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+.h1 {
+  font-size: 60px;
+}
+
+h2,
+.h2 {
+  font-size: 40px;
+}
+
+h3,
+.h3 {
+  font-size: 30px;
+}
+
+h4,
+.h4 {
+  font-size: 24px
+}
+
+h5,
+.h5 {
+  font-size: 20px;
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: var(--white);
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  border-color: var(--border-color);
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.btn {
+  width: fit-content;
+  padding: 20px 35px;
+  font-size: 18px;
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid #000000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media (max-width:1024) {
+
+  h1,
+  .h1 {
+    font-size: 43px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 36x;
+  }
+
+  h3,
+  .h3 {
+    font-size: 26px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 18px
+  }
+
+  h5,
+  .h5 {
+    font-size: 16px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
