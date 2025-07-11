@@ -232,6 +232,7 @@ body {
   padding: 15px;
   gap: 10px;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 .product-price {
