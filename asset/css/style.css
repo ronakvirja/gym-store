@@ -748,11 +748,20 @@ body {
     font-size: 12px;
   }
 
-  .cart-product-total :nth-child(2),
-  .cart-product-price :nth-child(2) {
-    font-size: 20px;
+  .cart-product-total :nth-child(1),
+  .cart-product-price :nth-child(1) {
+    font-size: 9px;
   }
 
+  .cart-product-total :nth-child(2),
+  .cart-product-price :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .cart-product-remove-btn button svg {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 @media(max-width:425px) {
