@@ -714,7 +714,7 @@ body {
 
   /* ********** */
   .cart-tbl-heading-row {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .cart-product-detail {
@@ -727,7 +727,7 @@ body {
   }
 
   .cart-product-img img {
-    height: 125px;
+    height: 106px;
   }
 
   .cart-product-item-name span {
