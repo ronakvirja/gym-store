@@ -191,6 +191,7 @@ body {
 @media(max-width:576px) {
   .nav-links {
     padding-block: 2.5rem;
+    width: 228px;
   }
 }
 
@@ -198,7 +199,6 @@ body {
   .nav-links {
     top: 81.9px;
     padding-block: 2rem;
-    width: 228px;
   }
 }
 
