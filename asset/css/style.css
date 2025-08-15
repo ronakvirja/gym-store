@@ -943,7 +943,12 @@ input[type=number]::-webkit-outer-spin-button {
   padding-bottom: 25px;
 }
 
+
 .payment-sector div input {
+  cursor: pointer;
+}
+
+label {
   cursor: pointer;
 }
 
