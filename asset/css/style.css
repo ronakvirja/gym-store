@@ -731,11 +731,11 @@ body {
   }
 
   .cart-product-item-name span {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .cart-product-item-name p {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .cart-product-total :nth-child(2),
