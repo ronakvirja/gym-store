@@ -721,6 +721,38 @@ body {
   .product-tax p {
     font-size: 16px;
   }
+
+  /* ********** */
+  .cart-tbl-heading-row {
+    font-size: 24px;
+  }
+
+  .cart-product-detail {
+    padding-top: 12px;
+  }
+
+  .cart-product-img {
+    width: 128px;
+    height: 160px;
+  }
+
+  .cart-product-img img {
+    height: 125px;
+  }
+
+  .cart-product-item-name span {
+    font-size: 15px;
+  }
+
+  .cart-product-item-name p {
+    font-size: 18px;
+  }
+
+  .cart-product-total :nth-child(2),
+  .cart-product-price :nth-child(2) {
+    font-size: 20px;
+  }
+
 }
 
 @media(max-width:425px) {
