@@ -642,8 +642,7 @@ body {
   align-items: end;
   color: var(--white);
   gap: 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-block: 30px;
 }
 
 .pdt-amount {
@@ -722,7 +721,6 @@ body {
     font-size: 16px;
   }
 
-  /* ********** */
   .cart-tbl-heading-row {
     font-size: 20px;
   }
@@ -759,8 +757,31 @@ body {
   }
 
   .cart-product-remove-btn button svg {
-    width: 25px;
-    height: 25px;
+    width: 21px;
+    height: 21px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 18px;
+  }
+
+  .prouct-subtotal>div :nth-child(1),
+  .product-grand-total>div :nth-child(1) {
+    font-size: 9px;
+  }
+
+  .prouct-subtotal>div :nth-child(2),
+  .product-grand-total>div :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .checkout-btn {
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
 
