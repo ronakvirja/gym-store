@@ -721,6 +721,10 @@ body {
     font-size: 16px;
   }
 
+  .cart-table {
+    margin-top: 2.5rem;
+  }
+
   .cart-tbl-heading-row {
     font-size: 20px;
   }
