@@ -711,6 +711,16 @@ body {
   .pdt-amount {
     width: 38%;
   }
+}
+
+@media(max-width:576px) {
+  .pdt-amount {
+    width: 48%;
+  }
+
+  .product-tax p {
+    font-size: 16px;
+  }
 
   /* ********** */
   .cart-tbl-heading-row {
@@ -741,16 +751,6 @@ body {
   .cart-product-total :nth-child(2),
   .cart-product-price :nth-child(2) {
     font-size: 20px;
-  }
-}
-
-@media(max-width:576px) {
-  .pdt-amount {
-    width: 48%;
-  }
-
-  .product-tax p {
-    font-size: 16px;
   }
 
 }
