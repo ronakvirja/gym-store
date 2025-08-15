@@ -732,12 +732,12 @@ body {
   }
 
   .cart-product-img {
-    width: 128px;
-    height: 160px;
+    width: 77px;
+    height: 92px;
   }
 
   .cart-product-img img {
-    height: 106px;
+    height: 75px;
   }
 
   .cart-product-item-name span {
